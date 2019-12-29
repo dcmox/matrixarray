@@ -1,6 +1,6 @@
 {
   "name": "matrixarray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "MatrixArray for TypeScript/JavaScript",
   "main": "matrixArray.js",
@@ -29,8 +29,10 @@
     "url": "git+https://github.com/dcmox/matrixarray.git"
   },
   "keywords": [
-    "debounce",
-    "retry"
+    "matrix",
+    "array",
+    "ArrayBuffer",
+    "optimized"
   ],
   "author": "Daniel Moxon (dancmox@comcast.net)",
   "license": "MIT",
