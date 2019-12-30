@@ -1,8 +1,8 @@
 export type TMatrixArray = Float32Array | Float64Array | Int8Array | Int16Array | Int32Array
 export const BYTES_PER_FLOAT = 4
 export class MatrixArray {
-    public buffer: ArrayBuffer = new ArrayBuffer(0)
-    private _array: TMatrixArray = new Float32Array()
+    public buffer: ArrayBuffer
+    private _array: TMatrixArray
     private _rows: number = 0
     private _columns: number = 0
     private _constructor: any = null
