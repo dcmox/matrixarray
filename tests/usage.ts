@@ -1,6 +1,9 @@
-import { MatrixArray } from '../matrixArray'
+const MatrixArray = require('../matrixArray')
 
-const data: MatrixArray = new MatrixArray([[1, 2, 3], [3, 4, 5]])
+const data = new MatrixArray([
+	[1, 2, 3],
+	[3, 4, 5],
+])
 
 console.log(data.row(0)[1]) // returns 2
 console.log(data.clone()) // returns a new Float32Array [[1, 2, 3], [3, 4, 5]]
